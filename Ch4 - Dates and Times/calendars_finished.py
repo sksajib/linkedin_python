@@ -7,13 +7,13 @@
 import calendar
 
 # create a plain text calendar
-c = calendar.TextCalendar(calendar.SUNDAY)
-str = c.formatmonth(2022, 1, 0, 0)
+c = calendar.TextCalendar(calendar.MONDAY)
+str = c.formatmonth(2023, 1, 0, 0)
 print (str)
 
 # create an HTML formatted calendar
 hc = calendar.HTMLCalendar(calendar.SUNDAY)
-str = hc.formatmonth(2022, 1)
+str = hc.formatmonth(2023, 1)
 print (str)
 
 # loop over the days of a month

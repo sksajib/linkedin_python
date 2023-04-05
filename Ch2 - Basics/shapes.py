@@ -19,8 +19,8 @@ class Rectangle(Shape):
         super().__init__(Rectangle)
         self.height=height
         self.width=width
-    def color(self, bColor):
-        super().color(bColor)
+    def color(self, Color):
+        super().color(Color)
     def area(self):
         self.area=self.height*self.width
         print("The color of my Triangle is ",self.bColor," and area is ",self.area)

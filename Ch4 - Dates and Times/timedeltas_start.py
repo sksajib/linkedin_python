@@ -7,13 +7,16 @@
 from datetime import date
 from datetime import time
 from datetime import datetime
-
+from datetime import timedelta
 
 # TODO: construct a basic timedelta and print it
 
-
+print(timedelta(days=365,hours=5,minutes=3))
 # TODO: print today's date
+now=datetime.now()
 
+print("one year from now it will be",str(now+timedelta(days=365)))
+print("In two weeks and 3 days it will be",str(now+timedelta(weeks=2,days=3)))
 
 # TODO: print today's date one year from now
 
